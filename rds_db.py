@@ -2,7 +2,7 @@
 
 import pymysql
 conn = pymysql.connect(
-        host= "users-db.cd2pfftf5k62.us-east-2.rds.amazonaws.com",
+        host= "users.cd2pfftf5k62.us-east-2.rds.amazonaws.com",
         port = 3306,
         user = "admin",
         password = "adminadmin",
