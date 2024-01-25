@@ -2,10 +2,10 @@
 
 import pymysql
 conn = pymysql.connect(
-        host= "users.cd2pfftf5k62.us-east-2.rds.amazonaws.com",
+        host= "localhost",
         port = 3306,
-        user = "admin",
-        password = "adminadmin",
+        user = "root",
+        password = "Dhanaraju@07",
         db = "users"
         
         )
