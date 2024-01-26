@@ -4,6 +4,16 @@ app = Flask(__name__)
 
 import rds_db as db
 
+import pymysql
+
+conn = pymysql.connect(
+    host="localhost",
+    port=3306,
+    user="root",
+    password="Dhanaraju@07",
+    db="users"
+)
+
 @app.route('/')
 def home():
     return render_template('home.html')
