@@ -7,7 +7,7 @@ import rds_db as db
 import pymysql
 
 conn = pymysql.connect(
-    host="localhost",
+    host="127.0.0.1",
     user="root",
     password="Dhanaraju@07",
     db="users"
